@@ -8,14 +8,14 @@ According to drifting icebergs, there is a threat for navigation and some activi
 
 # Content
 
-In this project, I have challenged to build some practical algorithms which automatically determine whether the classes or that remotely sensed target is a ship or iceberg. Therefore, I have been trained models including:
-1 - A Variational Autoencoders model (CNN-VAE)
-2- Transfer Learning using VGG Pre-trained model
-3- Transfer Learning using Inception-v3 Pre-trained model
-4- Transfer Learning using Resnet50
-5- Transfer Learning using VGG as Feature Extracion and PCA 
-6- Gray-level co-occurrence matrix (GLCM) features and LightGBM Binary Classification
-7- Transfer Learning using VGG16 as feature extractor and eXtreme Gradient Boosting (XGBoost) classifier
+In this project, I have challenged to build some practical algorithms which automatically determine whether the classes or that remotely sensed target is a ship or iceberg. Therefore, I have been trained models including:\
+1 - A Variational Autoencoders model (CNN-VAE)\
+2- Transfer Learning using VGG Pre-trained model\
+3- Transfer Learning using Inception-v3 Pre-trained model\
+4- Transfer Learning using Resnet50\
+5- Transfer Learning using VGG as Feature Extracion and PCA\
+6- Gray-level co-occurrence matrix (GLCM) features and LightGBM Binary Classification\
+7- Transfer Learning using VGG16 as feature extractor and eXtreme Gradient Boosting (XGBoost) classifier\
 8- Fully Connected Neural Network (FCNN) model
 
 # Data fields
