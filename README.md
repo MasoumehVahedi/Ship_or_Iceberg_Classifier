@@ -2,7 +2,24 @@
 
 In this project, I predicted whether an image contains a ship or an iceberg. All the images are 75x75 images with two bands.
 
+# Description
+
+According to drifting icebergs, there is a threat for navigation and some activities in offshore. There have been plenty of companies to monitor risks of icebergs using aerial recognition and exploration. Despite the fact that, in some cases, such as harsh weather in remote areas, such techniques would not be practical, therefore, monitoring through satellite images can be considered the only method which make it feasible.
+
+# Content
+
+In this project, I have challenged to build some practical algorithms which automatically determine whether the classes or that remotely sensed target is a ship or iceberg. Therefore, I have been trained models including:
+1 - A Variational Autoencoders model (CNN-VAE)
+2- Transfer Learning using VGG Pre-trained model
+3- Transfer Learning using Inception-v3 Pre-trained model
+4- Transfer Learning using Resnet50
+5- Transfer Learning using VGG as Feature Extracion and PCA 
+6- Gray-level co-occurrence matrix (GLCM) features and LightGBM Binary Classification
+7- Transfer Learning using VGG16 as feature extractor and eXtreme Gradient Boosting (XGBoost) classifier
+8- Fully Connected Neural Network (FCNN) model
+
 # Data fields
+
 train.json, test.json
 The data (train.json, test.json) is presented in json format. The files consist of a list of images, and for each image, you can find the following fields:
 
